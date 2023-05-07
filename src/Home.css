@@ -1,0 +1,16 @@
+.Home{
+    padding: 13rem;
+}
+.Home>p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Papyrus;
+}
+
+.Home>h1{
+    text-align: center;
+    color: white;
+    font-family: Granjon Roman;
+    font-size: 60px;   
+}

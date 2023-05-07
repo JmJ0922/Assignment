@@ -1,0 +1,37 @@
+.UserCard{
+    width: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    background: var(--cardColor);
+    transition: 0.3s;
+    animation: ease-in-out;
+    border-radius: 20px 20px 0 0;
+}
+
+.UserCard:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.user-image{
+    
+    overflow: hidden;
+    height: 300px;
+    
+}
+
+.user-image>img{
+    width: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+.user-name{
+    margin:1rem;
+    margin-top: 0.5rem;
+}
+
+h2,p{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
